@@ -124,5 +124,3 @@ async def auth_order(
     orders = user.order
 
     return jsonable_encoder(orders)
-
-@router.
